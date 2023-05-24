@@ -30,13 +30,13 @@ Before running the program, make sure you have the following:
 
  2. Modify the topics and ports variables according to your desired MQTT broker setup. These variables define the topics and ports for each broker.
 
- 3. Run the program using the following command:
+ 3. Make sure that the two brokers are running, run the program using the following command:
 
      python3 cpu_mqtt.py
 
 4. The program will start sending messages to the MQTT brokers specified in the topics and ports variables. It will display a progress bar indicating the number of messages sent.
 
-5. At the end of the message sending process, the program will calculate and display the CPU usage for each Mosquitto process running on the brokers and the overall sum of CPU usage.
+5. At the end of the message sending process, the program will calculate and display the CPU & Memory usage for each Mosquitto process running on the brokers and the overall CPU and memory usage.
 
 ## Notes
 
