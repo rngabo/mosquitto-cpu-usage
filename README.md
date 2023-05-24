@@ -30,7 +30,7 @@ Before running the program, make sure you have the following:
 
  2. Modify the topics and ports variables according to your desired MQTT broker setup. These variables define the topics and ports for each broker.
      Run the two brokers first
-     - mosquitto -c /etc/mosquitto/conf.d/broker2.conf
+     - mosquitto -c /etc/mosquitto/conf.d/broker1.conf
      - mosquitto -c /etc/mosquitto/conf.d/broker2.conf
 
  3. Make sure that the two brokers are running, run the program using the following command:
